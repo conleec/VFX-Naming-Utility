@@ -8,6 +8,7 @@
 
 #import "EDLViewController.h"
 #import "Event.h"
+#import "MarkerColorSearchController.h"
 
 @interface EDLViewController ()
 
@@ -27,6 +28,15 @@
     [super viewDidLoad];
     // Do view setup here.
 }
+
+- (IBAction)showMarkerColorSearchWindow:(id)sender {
+    if (!markerColorSearchController) {
+        markerColorSearchController = [[MarkerColorSearchController alloc] initWithWindowNibName:@"MarkerColorSearch"];
+    }
+    [markerColorSearchController showWindow:self];
+    
+}
+
 
 - (IBAction)menuOpenEDL:(id)sender {
     
@@ -115,19 +125,7 @@
     }];
 }
 
-- (IBAction)nameVFX:(id)sender {
-    
-    int count = 0;
-    
-    for (id currentLine in edl) {
-        Event *e = [edl objectAtIndex:count];
-        NSLog(@"%@ %@ %@ %@ %@ %@", e.edlEvent, e.srcStart, e.srcEnd, e.recStart, e.recEnd, e.vfxName);
-        count++;
-    }
-    
-    
-    
-}
+
 
 - (NSInteger) numberOfRowsInTableView:(NSTableView *)tableView {
     return [edl count];

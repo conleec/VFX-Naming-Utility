@@ -7,14 +7,17 @@
 //
 
 #import <Cocoa/Cocoa.h>
+@class MarkerColorSearchController;
 
 @interface EDLViewController : NSViewController <NSTableViewDataSource> {
     @private
+    
+    MarkerColorSearchController *markerColorSearchController;
     IBOutlet NSTableView *tableView;
     NSMutableArray *edl;
 }
 
-
+- (IBAction)showMarkerColorSearchWindow:(id)sender;
 
 
 @end

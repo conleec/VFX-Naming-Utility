@@ -98,7 +98,7 @@
                         <items>
                             <menuItem title="Create Subcaps from EDL" keyEquivalent="m" id="7Nj-Zs-rtU">
                                 <connections>
-                                    <action selector="nameVFX:" target="rgW-s8-drx" id="mXK-ng-5pa"/>
+                                    <action selector="showMarkerColorSearchWindow:" target="rgW-s8-drx" id="OSq-cH-LQb"/>
                                 </connections>
                             </menuItem>
                             <menuItem title="Name VFX from Markers" keyEquivalent="n" id="5YB-1k-DM6">

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1737A6E8-D73B-46A1-9535-21F70E9A465F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VFX_160523</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C040478A8D987EA03A9E0177C2D62EE89C6F3B50</key>
+		<string>https://github.com/conleec/VFX-Naming-Utility.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VFX_160523.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C040478A8D987EA03A9E0177C2D62EE89C6F3B50</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/conleec/VFX-Naming-Utility.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C040478A8D987EA03A9E0177C2D62EE89C6F3B50</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C040478A8D987EA03A9E0177C2D62EE89C6F3B50</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VFX_160523</string>
+		</dict>
+	</array>
+</dict>
+</plist>

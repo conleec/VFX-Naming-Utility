@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03441D3B1D0084BE00C93F7D /* MarkerColorSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03441D3A1D0084BE00C93F7D /* MarkerColorSearch.xib */; };
+		03441D3D1D013CC000C93F7D /* MarkerColorSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03441D3C1D013CC000C93F7D /* MarkerColorSearch.xib */; };
+		03441D401D01403200C93F7D /* MarkerColorSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03441D3F1D01403200C93F7D /* MarkerColorSearchController.m */; };
 		0356D75C1CF6D93100135C4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0356D75B1CF6D93100135C4F /* AppDelegate.m */; };
 		03637EE11CF3CAB300526335 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03637EE01CF3CAB300526335 /* main.m */; };
 		03637EE31CF3CAB300526335 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03637EE21CF3CAB300526335 /* Images.xcassets */; };
@@ -28,7 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03441D3A1D0084BE00C93F7D /* MarkerColorSearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MarkerColorSearch.xib; path = ../MarkerColorSearch.xib; sourceTree = "<group>"; };
+		03441D3C1D013CC000C93F7D /* MarkerColorSearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkerColorSearch.xib; sourceTree = "<group>"; };
+		03441D3E1D01403200C93F7D /* MarkerColorSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerColorSearchController.h; sourceTree = "<group>"; };
+		03441D3F1D01403200C93F7D /* MarkerColorSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerColorSearchController.m; sourceTree = "<group>"; };
 		0356D75B1CF6D93100135C4F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		03637ED81CF3CAB300526335 /* VFX_160523.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VFX_160523.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03637EDC1CF3CAB300526335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,9 +93,11 @@
 				03B9B7281CF7D7A800A85A5F /* Event.m */,
 				03B9B72A1CF7DB4600A85A5F /* EDLViewController.h */,
 				03B9B72B1CF7DB4600A85A5F /* EDLViewController.m */,
+				03441D3E1D01403200C93F7D /* MarkerColorSearchController.h */,
+				03441D3F1D01403200C93F7D /* MarkerColorSearchController.m */,
 				03637EE21CF3CAB300526335 /* Images.xcassets */,
 				03637EE41CF3CAB300526335 /* MainMenu.xib */,
-				03441D3A1D0084BE00C93F7D /* MarkerColorSearch.xib */,
+				03441D3C1D013CC000C93F7D /* MarkerColorSearch.xib */,
 				03637EDB1CF3CAB300526335 /* Supporting Files */,
 			);
 			path = VFX_160523;
@@ -205,7 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03637EE31CF3CAB300526335 /* Images.xcassets in Resources */,
-				03441D3B1D0084BE00C93F7D /* MarkerColorSearch.xib in Resources */,
+				03441D3D1D013CC000C93F7D /* MarkerColorSearch.xib in Resources */,
 				03637EE61CF3CAB300526335 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +232,7 @@
 				03B9B7291CF7D7A800A85A5F /* Event.m in Sources */,
 				03637EE11CF3CAB300526335 /* main.m in Sources */,
 				03B9B72C1CF7DB4600A85A5F /* EDLViewController.m in Sources */,
+				03441D401D01403200C93F7D /* MarkerColorSearchController.m in Sources */,
 				0356D75C1CF6D93100135C4F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
